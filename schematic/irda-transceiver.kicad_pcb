@@ -9923,7 +9923,7 @@
 		)
 	)
 	(gr_text "TFDU4101\nTR3"
-		(at 59.8 26.67 0)
+		(at 59.7 26.8 0)
 		(layer "F.SilkS")
 		(uuid "910287a7-2057-4f51-9222-3d4a77c2e153")
 		(effects
