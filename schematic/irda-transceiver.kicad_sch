@@ -2370,7 +2370,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "StockLib:TFDU4101-TT3"
+		(symbol "StockLib:TFDU4101-TR3"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2386,7 +2386,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "TFDU4101-TT3"
+			(property "Value" "TFDU4101-TR3"
 				(at -15.24 -15.24 0)
 				(effects
 					(font
@@ -2395,7 +2395,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "StockLib:TFDU4101-TT3"
+			(property "Footprint" "StockLib:TFDU4101-TR3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2405,7 +2405,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.vishay.com/docs/81288/tfdu4101.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2414,7 +2414,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "VISHAY IrDA-Transceiver, 115,2 kb/s, Side View"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2543,10 +2543,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "TFDU4101-TT3_0_0"
+			(symbol "TFDU4101-TR3_0_0"
 				(rectangle
-					(start -15.24 -12.7)
-					(end 15.24 10.16)
+					(start -15.24 10.16)
+					(end 15.24 -12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4933,213 +4933,6 @@
 		)
 	)
 	(symbol
-		(lib_id "StockLib:TFDU4101-TT3")
-		(at 232.41 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fb646bb-1ae6-43d1-8a79-daabc24c079e")
-		(property "Reference" "U2"
-			(at 232.41 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TFDU4101-TT3"
-			(at 232.41 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "StockLib:TFDU4101-TT3"
-			(at 232.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Semiconductor"
-			(at 232.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "4.7mm"
-			(at 232.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 232.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 232.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TFDU4101-TT3/Vishay/view-part/?ref=eda"
-			(at 232.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 232.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "2.4"
-			(at 232.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TFDU4101-TT3/Vishay/view-part/?ref=snap"
-			(at 232.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TFDU4101-TT3"
-			(at 232.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "115.2kbs (SIR) IRDA Transceiver Top View"
-			(at 232.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 232.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Vishay"
-			(at 232.41 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e2f3e4c3-4468-4dc0-b374-cf71cff15f0d")
-		)
-		(pin "4"
-			(uuid "882e4101-e57b-4a01-8070-8ec2cb2bd61f")
-		)
-		(pin "5"
-			(uuid "82612693-26a2-49b0-b509-6812c1e5dcf6")
-		)
-		(pin "8"
-			(uuid "c2d87960-b635-4ec7-ab08-255b61c87962")
-		)
-		(pin "2"
-			(uuid "4175937b-ada5-4d38-98bd-f22bb0720408")
-		)
-		(pin "6"
-			(uuid "67b08b7d-850a-4a6a-b977-905c927442bd")
-		)
-		(pin "1"
-			(uuid "c79a064d-c08b-490a-96ed-4f5718a47a4a")
-		)
-		(pin "7"
-			(uuid "1a4385bf-7008-4a6e-bc5a-e524120e6d46")
-		)
-		(instances
-			(project ""
-				(path "/35cc8955-5106-49e3-b197-5188392bf670"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 162.56 58.42 180)
 		(unit 1)
@@ -5274,6 +5067,213 @@
 			(project "irda-transceiver"
 				(path "/35cc8955-5106-49e3-b197-5188392bf670"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "StockLib:TFDU4101-TR3")
+		(at 232.41 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3802b9f1-8a45-4666-99d1-64711b647416")
+		(property "Reference" "U2"
+			(at 232.41 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TFDU4101-TR3"
+			(at 232.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "StockLib:TFDU4101-TR3"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81288/tfdu4101.pdf"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY IrDA-Transceiver, 115,2 kb/s, Side View"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Vishay Semiconductor"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.7mm"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TFDU4101-TT3/Vishay/view-part/?ref=eda"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2.4"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TFDU4101-TT3/Vishay/view-part/?ref=snap"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TFDU4101-TT3"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "115.2kbs (SIR) IRDA Transceiver Top View"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Vishay"
+			(at 232.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "ceb08ecf-8563-4ba2-96e5-9797b5fcc3e6")
+		)
+		(pin "5"
+			(uuid "d6676daf-856a-470e-82f5-3ccb6207a7c8")
+		)
+		(pin "7"
+			(uuid "9ebd2115-4bf3-4a93-babe-4a8c693e01e4")
+		)
+		(pin "4"
+			(uuid "ca5f473b-d494-4b6a-93e1-7c64e0bf820c")
+		)
+		(pin "3"
+			(uuid "288e4c6e-2d9a-4a97-9928-af688cb8b029")
+		)
+		(pin "2"
+			(uuid "60d16b2d-b2f7-4535-9d98-b220c16fcb3e")
+		)
+		(pin "8"
+			(uuid "e0c9d1ed-3d8f-44f0-b793-a57c7d40cf9c")
+		)
+		(pin "1"
+			(uuid "96684001-dcd1-4d5f-b2a6-c14f38c6ed7b")
+		)
+		(instances
+			(project ""
+				(path "/35cc8955-5106-49e3-b197-5188392bf670"
+					(reference "U2")
 					(unit 1)
 				)
 			)
